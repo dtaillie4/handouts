@@ -1,12 +1,6 @@
 # README.md
 
-A `README.md` file is a very useful component of any project
-repository; it is the first file that unfamiliar users will open to
-learn about your project. If this course uses GitHub, you will also
-notice that the README.md is automatically rendered on GitHub as a
-simple "homepage" for your project. Instructions for creating your own
-GitHub repository from these files may be given during the course. The
-same instructions are also summarized in [CONTRIBUTING.md].
+My work during the SESYNC Summer Institute for SES is going to be neat.
 
 ## Collaborators 
 
