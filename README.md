@@ -5,6 +5,7 @@ My work during the SESYNC Summer Institute for SES is going to be neat.
 ## Collaborators 
 
 - Dylan Taillie 
+- Katie May Laumann
 
 
 ## Data
