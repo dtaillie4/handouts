@@ -11,6 +11,7 @@ same instructions are also summarized in [CONTRIBUTING.md].
 ## Collaborators 
 
 - Dylan Taillie 
+- Katie May Laumann
 
 
 ## Data
