@@ -116,3 +116,40 @@ acs_cbp <- cbp %>%
   inner_join(acs)
 
 
+## Exercises 
+
+## 1 ##
+
+long_survey <- tidy_survey %>%
+  gather(
+    key = 'parameter',
+    value = 'measurement',
+    -participant
+  )
+
+## 2 ##
+
+#wrong data, didn't work but this was my work flow#
+top_cons <- acs_cbp %>%
+  filter(Sector == "construction") %>%
+  filter(FIPS, c(starts_with('23'))) %>%
+  select(median_income)
+
+top_cons <- fread ('data/cbp15co.csv', na.strings = '') %>%
+  filter(NAICS == '23----') %>%
+  select(starts_with('FIPS'), starts_with('AP'))
+
+### 3 ###
+
+oil_employment <- fread('data/cbp15co.csv', na.strings = '') %>%
+  filter(NAICS == '21----') %>%
+  select(starts_with('EMB')) %>%
+  group_by('FIPSTATE', 'FIPSCTY')%>%
+  summarise(n= n())
+###above is wrong but somewhat closesish, didn't exactly know what we wanted###
+
+
+
+
+
+
